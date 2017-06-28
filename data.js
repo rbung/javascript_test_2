@@ -16,7 +16,7 @@ module.exports =  {
     [process.env.KEY_MOBILE            || 'secretKeyTwo']  : 2,
     [process.env.KEY_STATION           || 'secretKeyThree']: 3,
     [process.env.KEY_ASSOCIATION       || 'secretKeyFour'] : 4,
-    [process.env.KEY_SUBSCRIPTIONS     || 'secretKeyFive'] : 5,
-    [process.env.KEY_PROFILES          || 'secretKeySix']  : 6
+    [process.env.KEY_PAIRING           || 'secretKeyFive'] : 5,
+    [process.env.KEY_REFRESH           || 'secretKeySix']  : 6
   }
 };
